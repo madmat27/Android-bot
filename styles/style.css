@@ -1,0 +1,154 @@
+/*Android Robot made by CSS
+Based on exercise: http://thecodeplayer.com/walkthrough/css3-android-logo
+Created by Madmat27*/
+
+.bothead {
+	height: 90px;
+	width: 200px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -100px;
+	border-radius: 100px 100px 0px 0px;
+	-webkit-transition: -webkit-transform linear;
+	transition: transform linear;
+}
+
+.bothead:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+	transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.botbody {
+	height: 180px;
+	width: 200px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -90px;
+	margin-left: -100px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+.leftleg {
+	height: 90px;
+	width: 50px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 63%;
+	left: 48%;
+	margin-top: -45px;
+	margin-left: -25px;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.rightleg {
+	height: 90px;
+	width: 50px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 63%;
+	left: 52%;
+	margin-top: -45px;
+	margin-left: -25px;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.leftarm {
+	height: 160px;
+	width: 50px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 45%;
+	left: 43%;
+	margin-top: -45px;
+	margin-left: -25px;
+	border-radius: 25px 25px 25px 25px;
+	-webkit-transition: -webkit-transform linear;
+	transition: transform linear;
+}
+
+.leftarm:hover {
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+	transform: rotate(15deg) translate(-14px, 0);
+}
+
+.rightarm {
+	height: 160px;
+	width: 50px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 45%;
+	left: 57%;
+	margin-top: -45px;
+	margin-left: -25px;
+	border-radius: 25px 25px 25px 25px;
+	-webkit-transition: -webkit-transform linear;
+	transition: transform linear;
+}
+
+.rightarm:hover {
+	-webkit-transform: rotate(330deg) translate(28px, 0);
+	-moz-transform: rotate(330deg) translate(28px, 0);
+	transform: rotate(330deg) translate(28px, 0);
+}
+
+.lefteye {
+	height: 20px;
+	width: 20px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	margin-top: -10px;
+	margin-left: -10px;
+	border-radius: 10px 10px 10px 10px;
+	z-index: 1
+}
+
+.righteye {
+	height: 20px;
+	width: 20px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -10px;
+	margin-left: -10px;
+	border-radius: 10px 10px 10px 10px;
+	z-index: 1
+}
+
+.leftboom {
+	height: 60px;
+	width: 5px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: -20%;
+	left: 20%;
+	margin-top: -30px;
+	margin-left: -2.5px;
+	border-radius: 10px 10px 10px 10px;
+	transform: rotate(330deg);
+}
+
+.rightboom {
+	height: 60px;
+	width: 5px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: -20%;
+	left: 80%;
+	margin-top: -30px;
+	margin-left: -2.5px;
+	border-radius: 10px 10px 10px 10px;
+	transform: rotate(30deg);
+}
+
+
